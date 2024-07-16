@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Ejercicio 12.4</title>
+        <meta name="description" content="Este es el ejercicio 12.4 del modulo de HTML en conquerblocks" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, etc" />
+    </head>
+<body>
+    <header>
+        <h1>Ejercicio 12.4</h1>
+    </header>
+    <main>
+        <h2>Información sobre el producto</h2>
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Datos básicos</legend>
+                <label for="nombre">Nombre</label>
+                <br />
+                <input id="nombre" name="nombre" type="text" />
+                <br />
+                <br />
+                <label for="descripcion">Descripción</label>
+                <br />
+                <textarea id="descripcion" name="descripcion" rows="6"></textarea>
+                <br />
+                <br />
+                <label for="foto">Foto</label>
+                <input id="foto" type="file" name="foto"/>
+                <br />
+                <br />
+                <input id="contador" name="contador" type="checkbox" />
+                <label for="contador">Añadir contador de visitas</label>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Datos económicos</legend>
+                <label for="precio">Precio</label>
+                <input id="precio" name="precio" type="number" step="0.5" />
+                <label>€</label>
+                <label for="impuestos">Impuestos</label>
+                <select id="impuestos">
+                    <option value="">-</option>
+                    <option value="4">4%</option>
+                    <option value="7">7%</option>
+                    <option value="16">16%</option>
+                    <option value="25">25%</option>
+                </select>                
+                <br />
+                <br />
+                <label>Promoción</label>
+                <br />
+                <input name="promocion" id="ninguno" type="radio" value="" checked/>
+                <label for="ninguno">Ninguno</label>
+                <br />
+                <input name="promocion" id="tranporte" type="radio" value="transporte" />
+                <label for="tranporte">Transporte gratuito</label>
+                <br />
+                <input name="promocion" id="descuento" type="radio" value="descuento" />
+                <label for="descuento">Descuento 5%</label>
+                <br>    
+            </fieldset>
+            <button>Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
