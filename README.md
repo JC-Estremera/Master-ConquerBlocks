@@ -1,5 +1,10 @@
-# Master-ConquerBlocks
-Aqui se encuentran todos los ejercicios de los temarios del Master
+# Master Full Stack de ConquerBlocks
+Aqui se encuentran todos los enlaces a los ejercicios propuestos en el Master de Conquerblocks
 
-- [Ejercicios de HTML](https://github.com/JC-Estremera/HTML-Ejercicios)
+## Basico
 - [Ejercicios de Python](https://github.com/JC-Estremera/Python-Ejercicios)
+
+## Forntend
+- [Ejercicios de HTML](https://github.com/JC-Estremera/HTML-Ejercicios)
+
+## Backend
